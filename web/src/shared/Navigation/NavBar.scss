@@ -1,0 +1,77 @@
+.navbar {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 6rem 1.5rem;
+    background-color: #5c415d;
+    box-shadow: 1px 1px 5px #5c415d;
+
+    @media (max-width: 800px) {
+        padding: 0.8rem 3rem;
+    }
+    
+    .icon_box {
+        display: flex;
+        align-items: center;
+    }
+    
+    p {
+        font-weight: bold;
+        color: yellowgreen;
+        display: none;
+
+        @media (min-width: 800px) {
+            font-size: 1.4rem;
+            display: block;
+        }
+    }
+    
+    .icon {
+        color: yellowgreen;
+
+        @media (min-width: 800px) {
+            display: none;
+        }
+    }
+
+    .active {
+        color: #f6f7eb;
+        font-weight: bold;
+    }
+
+    ul {
+        display: flex;
+
+        @media (max-width : 800px) {
+            display: none;
+        }
+
+        li {
+            margin: 0px 1rem;
+
+
+            a {
+                color: yellowgreen;
+
+                &:hover {
+                    color: #f6f7eb;
+
+                    .line {
+                        height: 3px;
+                        background-color: yellowgreen;
+                        animation-name: lineAnimation;
+                        animation-fill-mode: forwards;
+                        animation-duration: 1s;
+                    }
+                }
+                
+                .line {
+                    height: 3px;
+                    background-color: transparent;
+                }
+            }
+        }
+    }
+}
+

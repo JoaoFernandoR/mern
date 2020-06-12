@@ -14,6 +14,7 @@
 ---
 ## 👍 A Thanks to:
 * [Academind](https://www.youtube.com/watch?v=-MlNBTSg_Ww&list=WL&index=3&t=659s "Academind") who provided this awesome class
+* [pexels](https://images.pexels.com/photos/4006567/pexels-photo-4006567.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260 "Pexels") with your free photos
 ---
 ## ✔️ To do 
 - [ ] 
