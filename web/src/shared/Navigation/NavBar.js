@@ -19,10 +19,10 @@ const NavBar = () => {
         { isMobile && <SideBar handleSideBar={handleSideBar}/>}
         <div className="navbar">
             <div className="icon_box">
+                <FiAlignJustify size="3em" className="icon" onClick={handleSideBar}/>
                 <Link to="/">
-                    <FiAlignJustify size="3em" className="icon" onClick={handleSideBar}/>
+                    <p> Your Places</p>
                 </Link>
-                <p> Your Places</p>
             </div>
             <ul> 
                 <li>

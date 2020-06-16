@@ -1,4 +1,5 @@
 import React from 'react'
+import {useParams} from 'react-router-dom'
 import './UserPlaces.scss'
 // Components
 import PlaceList from '../components/PlaceList'
@@ -23,10 +24,16 @@ const PLACES = [{
 }]
 
 const UserPlaces = () => {
+    const { userId } = useParams()
+    const loadedPlaces = PLACES.filter(place => place.creatorId === userId)
+
+     // Utiliza dos parâmetros dinâmicos, UserPlaces vai ter objeto com userId
     return (
-        <div>
-            <PlaceList item={PLACES}/>
+        <div className="userplaces">
+            <div className="container_places">
+            <PlaceList item={loadedPlaces}/>
         </div>
+    </div>
     )
 }
 

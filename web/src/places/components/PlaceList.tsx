@@ -30,7 +30,7 @@ const PlaceList = (props: Props) => {
 
     
     return (
-    <ul>        
+    <ul className="ul_places">        
         {props.item.map((place, index) => <PlaceItem 
         key={index}
         id={place.id}

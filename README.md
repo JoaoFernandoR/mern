@@ -10,6 +10,8 @@
 * [node-sass](https://www.npmjs.com/package/node-sass "node-sass")
 * [react-router-dom](https://reacttraining.com/react-router/web/guides/quick-start "react-router-dom")
 * [express](http://expressjs.com/ "express")
+* [react-icons](https://react-icons.github.io/react-icons/ "react-icons")
+* [react-leaflet](https://react-leaflet.js.org/ "react-leaflet")
 
 ---
 ## 👍 A Thanks to:
@@ -17,4 +19,4 @@
 * [pexels](https://images.pexels.com/photos/4006567/pexels-photo-4006567.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260 "Pexels") with your free photos
 ---
 ## ✔️ To do 
-- [ ] 
+- [ ] Finish the project

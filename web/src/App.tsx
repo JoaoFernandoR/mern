@@ -13,7 +13,7 @@ const Routes = () => {
       <Switch>
         <Route path="/" component={Users} exact />
         <Route path="/places/new" component={NewPlaces} exact/>
-        <Route path="/:userId/places" component={UserPlaces} exact/>
+        <Route path="/:userId/places" component={UserPlaces} exact/> { /*Parâmetro que o hook useParams() vai utilizar */}
         <Redirect to="/"/>
       </Switch>
     </BrowserRouter>

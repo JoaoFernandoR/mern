@@ -1,11 +1,10 @@
 .navbar {
-    margin-bottom: 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1.5rem 6rem 1.5rem;
-    background-color: #5c415d;
-    box-shadow: 1px 1px 5px #5c415d;
+    background-color: var(--purple);
+    box-shadow: 1px 1px 5px var(--purple);
 
     @media (max-width: 800px) {
         padding: 0.8rem 3rem;
@@ -29,6 +28,7 @@
     
     .icon {
         color: yellowgreen;
+        cursor: pointer;
 
         @media (min-width: 800px) {
             display: none;

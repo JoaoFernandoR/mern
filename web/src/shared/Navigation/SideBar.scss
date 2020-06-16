@@ -4,6 +4,8 @@
      z-index: 1;
      position: fixed;
      background-color: rgba(0,0,0,0.3);
+     top: 0px;
+     left: 0px
  }
 
 .sidebar {
@@ -16,7 +18,7 @@
     width: 160px;
     z-index: 2;
     background-color: rgba(92, 65, 93, 0.8);
-    box-shadow: 1px 1px 5px #5c415d;
+    box-shadow: 1px 1px 5px var(--purple);
     animation-name: sidebar;
     animation-duration: 1s;
     animation-fill-mode: forwards;
@@ -51,3 +53,12 @@
     
 }
 
+@keyframes sidebar {
+    0% {
+        transform: translateX(-100%);
+    }
+  
+    100% {
+        transform: translateX(0%)
+    }
+  }
