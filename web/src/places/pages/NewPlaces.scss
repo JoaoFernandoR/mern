@@ -1,0 +1,12 @@
+.new_places {
+    min-height: calc(100vh - 76px);
+    width: 100%;
+    padding: 2rem;
+}
+
+.form_container {
+    max-width: 800px;
+    margin: 0px auto;
+    padding: 1rem;
+    box-shadow: 2px 2px 5px var(--purple);
+}

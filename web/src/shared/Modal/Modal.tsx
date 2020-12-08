@@ -1,9 +1,15 @@
 import React from 'react'
 import './Modal.scss'
-import Button from '../../shared/Button/Button'
+import Button from '../Button/Button'
 import { Map, TileLayer, Marker } from 'react-leaflet';
 
-const Modal = (props) => {
+interface Props {
+    children: string;
+    handleModal: () => void;
+    location: {lat: number, long: number}
+}
+
+const Modal = (props: Props) => {
 
     const {handleModal, children, location} = props
 
